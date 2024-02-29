@@ -1,0 +1,75 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+#logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 3vw;
+    width: 10vw;
+}
+
+#logo img {
+    width: 30px;
+    height: 25px;
+}
+
+#help ul {
+    display: flex;
+}
+
+#help ul li {
+    list-style-type: none;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+#help ul li::after {
+    content : " |";
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#bottom img {
+    width: 60px;
+    height: 40px;
+}
+
+#bottom nav {
+    margin-left: 8vw;
+}
+
+#bottom nav ul {
+    display: flex;
+}
+
+#bottom nav ul li {
+    list-style-type: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#search {
+    display: flex;
+    margin-left: 20px;
+}
+
+#search * {
+    margin-left: 15px;
+}
+
+#search form {
+    margin-top: 10px;
+}
