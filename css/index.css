@@ -1,0 +1,40 @@
+main img {
+    width: 100%;
+    height: auto;
+}
+
+main ul {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    padding-bottom: 20px;
+}
+
+ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.article img {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.sport img {
+    width: 440px;
+    height: 440px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+span {
+    margin-left: 15px;
+}
+
+
+

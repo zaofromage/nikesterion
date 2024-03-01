@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="images/nike.png" />
     <title>Nike. Just Do It. Nike FR</title>
 </head>
 <body>
 <header>
     <div id="top">
         <div id="logo">
-            <img class="logo" src="images/jordan.png" alt="jordan">
-            <img class="logo" src="images/converse.png" alt="converse">
+            <a href="asterion.html"><img class="logo" src="images/jordan.png" alt="jordan"></a>
+            <a href="asterion.html"><img class="logo" src="images/converse.png" alt="converse"></a>
         </div>
         <div id="help">
             <ul>
-                <li>Trouver un magasin</li>
-                <li>Aide</li>
-                <li>Nous rejoindre</li>
-                <li>S'identifier</li>
+                <li><a href="asterion.html">Trouver un magasin |</a></li>
+                <li><a href="asterion.html">Aide |</a></li>
+                <li><a href="asterion.html">Nous rejoindre |</a></li>
+                <li><a href="asterion.html">S'identifier</a></li>
             </ul>
         </div>
     </div>
@@ -27,17 +29,17 @@
         <img class="logo" src="images/nike.png" alt="nike">
         <nav>
             <ul>
-                <li>Nouveautés du moment</li>
-                <li>Homme</li>
-                <li>Femme</li>
-                <li>Enfant</li>
-                <li>Offres</li>
+                <li><a href="asterion.html">Nouveautés du moment</a></li>
+                <li><a href="asterion.html">Homme</a></li>
+                <li><a href="asterion.html">Femme</a></li>
+                <li><a href="asterion.html">Enfant</a></li>
+                <li><a href="asterion.html">Offres</a></li>
             </ul>
         </nav>
         <div id="search">
             <form action="/"><input type="text" name="search"></form>
-            <img src="images/coeur.png" alt="coeur">
-            <img src="images/panier.png" alt="panier">
+            <a href="asterion.html"><img src="images/coeur.png" alt="coeur"></a>
+            <a href="asterion.html"><img src="images/panier.png" alt="panier"></a>
         </div>
     </div>
 </header>

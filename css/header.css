@@ -2,6 +2,11 @@ html {
     font-family: 'Courier New', Courier, monospace;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 #top {
     display: flex;
     justify-content: space-between;
@@ -25,14 +30,10 @@ html {
     display: flex;
 }
 
-#help ul li {
+#help ul li a {
     list-style-type: none;
     font-size: 13px;
-    margin-right: 10px;
-}
-
-#help ul li::after {
-    content : " |";
+    margin-right: 5px;
 }
 
 #bottom {
